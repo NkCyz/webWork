@@ -28,10 +28,11 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint中文 with [ESLint中文](https://eslint.org/)
 
 ```sh
 npm run lint
+我的内容尝试尝试
 ```
 
-##我的内容
+我的内容
