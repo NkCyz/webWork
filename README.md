@@ -37,4 +37,4 @@ npm run lint
 
 ##我的内容
 
-cyz:new 2
+cyz:new2
