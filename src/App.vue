@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <main class="all">
     <div class="wrapper">
-      <el-scrollbar height="800px" tag="div">
+      <el-scrollbar height="600px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
         <RouterLink to="/hebei" class="scrollbar-demo-item">河北</RouterLink>
         <RouterLink to="/shanxi" class="scrollbar-demo-item">山西</RouterLink>
@@ -54,7 +54,7 @@ header {
   line-height: 1.5;
 }
 .wrapper {
-  height: 800px;
+  height: 600px;
 }
 .all {
   display: grid;
