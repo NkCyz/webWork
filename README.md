@@ -36,7 +36,4 @@ npm run lint
 ```
 
 ##我的内容
-
 zyw:new 1
-
-666

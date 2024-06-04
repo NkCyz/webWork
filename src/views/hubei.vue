@@ -1,5 +1,7 @@
 <script setup></script>
 
 <template>
-  <p>this is home</p>
+  <main>
+    <p>this is hubei</p>
+  </main>
 </template>
