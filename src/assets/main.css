@@ -1,18 +1,9 @@
 @import './base.css';
 
-.list {
-  height: 600px;
-  /*随便设置个颜色区分可滚动区域和其他区域*/
-  background-color: #181818;
-  overflow-y: scroll;
-  direction: rtl;
-  list-style: none;
-}
-
 #app {
-  max-width: 1280px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0px;
   font-weight: normal;
 }
 
