@@ -1,29 +1,38 @@
-
 <script setup></script>
 
 <template>
   <main>
     <section class="intro">
-      <h1>欢迎来到河北</h1>
-      <p>这么近那么美，周末到河北</p>
+      <h1>欢迎来到福建</h1>
+      <p>海声与山色的共鸣，繁华与文艺的交错</p>
     </section>
     <section class="culture">
       <h2>文化</h2>
-      <p>连接山海、怀抱京津，北望辽东、南守中原，这个地方是河北，扼守华北的咽喉，包裹着中国的心脏。</p>
+      <p>福建的历史，是一部民族文化的传承史。福建的文化底蕴深厚，无论是古代的闽南文化、客家文化，
+        还是现代的闽南语歌曲、木偶戏等，都是福建文化的瑰宝。福建的文化，既体现在其丰富的物质文化遗产上，也体现在其独特的非物质文化遗产上。</p>
     </section>
     <section class="attractions">
       <h2>景点</h2>
       <ul>
-        <li>秦皇岛-北戴河</li>
-        <li>承德避暑山庄</li>
-        <li>正定古城</li>
-        <li>狼牙山</li>
+        <li>武夷山</li>
+        <li>三坊七巷</li>
+        <li>鼓浪屿</li>
+        <li>湄洲岛</li>
       </ul>
     </section>
     <section class="food">
       <h2>美食</h2>
-      <p>河北，紧邻着首都北京，算得上是“天子脚下”，但存在感似乎并不高。连带着河北的各种特色美食也一个比一个低调。河北的美食虽说低调，可千万不能小看，个个都独具特色，且美味自成一派。</p>
-      
+      <p>“佛闻弃禅跳墙来，闽地美食香气开。鱼丸舞动如鱼游，闽菜精髓尽呈现，尝味福地醉心梦。”</p>
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片1.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片2.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片3.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片4.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片5.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片6.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片7.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片8.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片9.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>
@@ -93,6 +102,3 @@ section {
   margin-bottom: 30px;
 }
 </style>
-
-
-

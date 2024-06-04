@@ -4,11 +4,12 @@
   <main>
     <section class="intro">
       <h1>欢迎来到安徽</h1>
-      <p>徽州烟雨醉江南，皖山皖水情无限</p>
+      <p>徽州烟雨醉江南，皖山皖水情无限。</p>
     </section>
     <section class="culture">
       <h2>文化</h2>
-      <p>安徽由于历史原因和地形、地貌的特点，形成四大文化圈，即淮河文化、庐州文化、徽文化、皖江文化，各具特色，影响深远。</p>
+      <p>安徽省地处华东地区，跨越了中国的南方与北方。长江与淮河两条水系，将安徽分成了皖南、皖中和皖北，黄山傲立在皖南山地之中。省会合肥坐落在全省的中心，皖北平原则孕育出了中国的百亿粮仓。
+        安徽，身跨南北。合肥，一省山川名胜，多元文化环抱的地理中心，没有不可撼动的传统羁绊，任由新时代的探索者开荒拓土。在乡土宁静的安徽，跳动着一个朝气蓬勃的心脏。</p>
     </section>
     <section class="attractions">
       <h2>景点</h2>
@@ -21,9 +22,18 @@
     </section>
     <section class="food">
       <h2>美食</h2>
-      <p>徽菜起源于南宋时期的古徽州，原是徽州山区的地方风味，经过历代名厨的辛勤创造、兼收并蓄，徽菜已逐渐从徽州地区的山乡风味脱颖而出，
-        如今已集中了安徽各地的风味特邑、名馔佳肴，逐步形成了一个雅俗共赏、南北咸宜、独具一格、自成一体的著名菜系。</p>
-      
+      <p>寻味安徽，皖南徽菜的咸鲜醇正，沿江美食的清淡可口，皖中美味的融合鼎新，皖北面食的朴实深厚。走遍市井街巷，用舌尖丈量安徽，解锁多元的皖美饮食文化；嗨吃皖美味道，
+        用味道了解地域风情。安徽的美食带着分明的地域烟火气，讲述着地道风味的丰富多彩。</p>
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片1.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片2.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片3.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片4.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片5.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片6.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片7.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片8.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片9.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>
@@ -93,6 +103,3 @@ section {
   margin-bottom: 30px;
 }
 </style>
-
-
-

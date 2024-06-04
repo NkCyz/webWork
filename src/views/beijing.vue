@@ -1,4 +1,3 @@
-
 <script setup></script>
 
 <template>
@@ -9,9 +8,8 @@
     </section>
     <section class="culture">
       <h2>文化</h2>
-      <p>北京历史悠久，它作为城市的历史可以追溯到3000年前。秦汉以来，北京地区一直是中国北方的重镇，
-        名称先后称为蓟城、燕都、燕京、大都、北平、顺天府等。北京与西安、南京、洛阳并称中国“四大古都”，
-        拥有6项世界遗产，具有重要的国际影响力，也是世界上最大的城市之一 。</p>
+      <p>京，国之都也。京之华，奋安泰，存袤远，阅万象。冠剑戟峥嵘以据中正。史华汤汤，肇百宫室之鸿图基业，崇丽威灵。是以长城伫立，领武事，御狼烟。庙堂之上，纵横捭阖。协天人之赞，护佑沃野安宁。
+        故极目盛游，笑看风云，气魄贯坤乾。度宏规之翼以展博大，紫禁巍巍。历八百载之景呪骈臻，傲然寰宇</p>
     </section>
     <section class="attractions">
       <h2>景点</h2>
@@ -24,8 +22,17 @@
     </section>
     <section class="food">
       <h2>美食</h2>
-      <p>北京作为中国的首都，拥有悠久的历史和丰富的美食文化。这座城市聚集了来自全国各地的人们，形成了多元的口味和独特的风味。让我们一起来探索北京的冬季传统美食吧！</p>
-      
+      <p>北京，这座千年古都，不仅拥有悠久的历史和灿烂的文化，还隐藏着无数令人垂涎欲滴的美食。每一道美食都承载着北京的独特风情，折射出这座城市的魅力与活力。</p>
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片1.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片2.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片3.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片4.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片5.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片6.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片7.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片8.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片9.jpg" width="400" height="500" >
+      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>
@@ -95,6 +102,3 @@ section {
   margin-bottom: 30px;
 }
 </style>
-
-
-
