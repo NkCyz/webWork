@@ -40,7 +40,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </el-menu>
   <main class="all">
     <div class="wrapper">
-      <el-scrollbar height="700px" tag="div">
+      <el-scrollbar height="717px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
         <RouterLink to="/hebei" class="scrollbar-demo-item">河北</RouterLink>
         <RouterLink to="/shanxi" class="scrollbar-demo-item">山西</RouterLink>
@@ -89,7 +89,7 @@ header {
   line-height: 1.5;
 }
 .wrapper {
-  height: 700px;
+  height: 717px;
 }
 .all {
   display: grid;
