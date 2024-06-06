@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到山东</h1>
       <p>齐风鲁韵，岱青海蓝，礼仪之邦，好客山东。</p>
@@ -27,17 +28,23 @@
     <section class="food">
       <h2>美食</h2>
       <p>鲁菜在中国饮食文化史中的重要地位的确是其他菜系所不可逾越与替代的，凡是中式菜肴烹饪的手法，总或多或少有些鲁菜的底色在其中，是中华美食文化的根基。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\SHANDONG\SD- (1).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (2).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (3).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (4).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (5).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (6).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (7).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (8).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (9).jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\SD- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -52,8 +59,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -104,5 +113,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

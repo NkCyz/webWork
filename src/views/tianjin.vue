@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到天津</h1>
       <p>天津，一座古老而富有活力的城市，它如同一位智者，凝聚着悠久的历史和繁华的现代。</p>
@@ -24,17 +25,23 @@
     <section class="food">
       <h2>美食</h2>
       <p>津菜，源自天津，是天津地方特色的烹饪流派，它以海鲜为主，兼收并蓄，融合了北方的粗犷和南方的细腻，形成了独特的风味。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\TIANJIN\TJ- (1).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (2).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (3).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (4).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (5).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (6).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (7).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (8).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (9).jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\TJ- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -49,8 +56,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -101,5 +110,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

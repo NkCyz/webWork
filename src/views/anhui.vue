@@ -2,7 +2,8 @@
 
 <template>
   <main>
-    <section class="intro">
+    <el-scrollbar height="717px" tag="div">
+      <section class="intro">
       <h1>欢迎来到安徽</h1>
       <p>徽州烟雨醉江南，皖山皖水情无限。</p>
     </section>
@@ -24,17 +25,23 @@
       <h2>美食</h2>
       <p>寻味安徽，皖南徽菜的咸鲜醇正，沿江美食的清淡可口，皖中美味的融合鼎新，皖北面食的朴实深厚。走遍市井街巷，用舌尖丈量安徽，解锁多元的皖美饮食文化；嗨吃皖美味道，
         用味道了解地域风情。安徽的美食带着分明的地域烟火气，讲述着地道风味的丰富多彩。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+      <img src="..\assets\ANHUI\AH- (1).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (2).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (3).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (4).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (5).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (6).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (7).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (8).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (9).jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\AH- (10).jpg" width="400" height="500" >
+        </div>
+      </el-scrollbar>
     </section>
+    </el-scrollbar>
+  
   </main>
 </template>
 
@@ -49,8 +56,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -101,5 +110,9 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+
+.flex_bar{
+  display:flex;
 }
 </style>
