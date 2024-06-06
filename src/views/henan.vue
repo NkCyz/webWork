@@ -2,6 +2,7 @@
 
 <template>
   <main>
+
     <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到河南</h1>
@@ -11,6 +12,7 @@
       <h2>文化</h2>
       <p>一卷河南志，半部中国史! 从仰韶文化点燃中华文明第一缕曙光，到青铜器揭开商周时代的神秘面纱，再到秦汉帝国大一统的完成和唐宋经济文化助推中华文明达到历史时期的巅峰，
         王朝、都城、文字、文物等华夏文明的各类载体和结晶，成为支撑五千多年中华文明起源、形成、发展并延绵至今的物质和精神坐标。</p>
+
     </section>
     <section class="attractions">
       <h2>景点</h2>
@@ -23,6 +25,7 @@
     </section>
     <section class="food">
       <h2>美食</h2>
+
       <p>当提及中国美食之都，河南省无疑是一个不可忽视的地方。位于中原腹地的这片土地，凭借着其丰富的历史文化底蕴和独特的地理优势，孕育出了无数令人垂涎欲滴的美食珍馐。</p>
       <el-scrollbar >
         <div class="flex_bar">
@@ -41,6 +44,7 @@
       
     </section>
   </el-scrollbar>
+
   </main>
 </template>
 
@@ -55,10 +59,12 @@ body {
 
 main {
   width: 1050px;
+
   margin-left:75px;
   margin-right: 75px;
   padding-left: 40px;
   padding-right:40px;
+
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -110,6 +116,7 @@ ul li {
 section {
   margin-bottom: 30px;
 }
+=
 .flex_bar{
   display:flex;
 }
