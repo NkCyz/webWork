@@ -46,6 +46,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div>
       <RouterView />
     </div>
+    <div id="map"></div>
   </main>
 </template>
 
@@ -123,3 +124,4 @@ nav a:first-of-type {
   border-radius: 4px;
 }
 </style>
+
