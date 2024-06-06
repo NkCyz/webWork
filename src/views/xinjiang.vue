@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>新疆美食，独具特色，香飘万里。烤全羊、手抓羊排、大盘鸡、拉面，每一道都是对新疆风味的完美演绎，让你在每一口中尽情领略草原之上的独特魅力。品味新疆，品味一种草原情怀。</p>
+        <p>
+          新疆美食，独具特色，香飘万里。烤全羊、手抓羊排、大盘鸡、拉面，每一道都是对新疆风味的完美演绎，让你在每一口中尽情领略草原之上的独特魅力。品味新疆，品味一种草原情怀。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\XinJiang\XJ- (1).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (2).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (3).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (4).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (5).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (6).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (7).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (8).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (9).jpg" width="400" height="500">
-            <img src="..\assets\XinJiang\XJ- (10).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (1).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (2).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (3).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (4).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (5).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (6).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (7).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (8).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (9).jpg" width="400" height="500" />
+            <img src="..\assets\XinJiang\XJ- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 

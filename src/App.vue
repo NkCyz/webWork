@@ -79,7 +79,16 @@ import { RouterLink, RouterView } from 'vue-router';
     </el-sub-menu>
   </el-menu>
   <main class="all">
-    <div class="wrapper">
+    <div
+      class="wrapper"
+      style="
+        background-image: linear-gradient(
+          to right,
+          rgba(225, 225, 225, 0.75),
+          rgba(225, 225, 225, 0.75)
+        );
+      "
+    >
       <el-scrollbar height="717px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
         <RouterLink to="/beijing" class="scrollbar-demo-item">北京</RouterLink>
@@ -119,7 +128,16 @@ import { RouterLink, RouterView } from 'vue-router';
       </el-scrollbar>
     </div>
     <div>
-      <RouterView />
+      <RouterView
+        style="
+          background-color: transparent;
+          background-image: linear-gradient(
+            to right,
+            rgba(225, 225, 225, 0.75),
+            rgba(225, 225, 225, 0.75)
+          );
+        "
+      />
     </div>
     <div id="map"></div>
     <div class="province-info" id="provinceInfo"></div>
@@ -130,13 +148,14 @@ import { RouterLink, RouterView } from 'vue-router';
 header {
   line-height: 1.5;
 }
+
 .wrapper {
   height: 717px;
 }
 .all {
   display: grid;
   grid-template-columns: 1fr 10fr;
-  padding: 0 2rem;
+  padding: 0;
 }
 .logo {
   display: block;
@@ -183,7 +202,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }
@@ -198,7 +216,7 @@ nav a:first-of-type {
   margin: 10px;
   text-align: center;
   border-radius: 4px;
-  color: var(--color-text);
+  color: black;
 }
 
 .el-menu {

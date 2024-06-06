@@ -3,43 +3,47 @@
 <template>
   <main>
     <el-scrollbar height="717px" tag="div">
-    <section class="intro">
-      <h1>欢迎来到北京</h1>
-      <p>远赴京城，一睹人间盛世，奔赴一场属于中国人的浪漫。</p>
-    </section>
-    <section class="culture">
-      <h2>文化</h2>
-      <p>京，国之都也。京之华，奋安泰，存袤远，阅万象。冠剑戟峥嵘以据中正。史华汤汤，肇百宫室之鸿图基业，崇丽威灵。是以长城伫立，领武事，御狼烟。庙堂之上，纵横捭阖。协天人之赞，护佑沃野安宁。
-        故极目盛游，笑看风云，气魄贯坤乾。度宏规之翼以展博大，紫禁巍巍。历八百载之景呪骈臻，傲然寰宇</p>
-    </section>
-    <section class="attractions">
-      <h2>景点</h2>
-      <ul>
-        <li>天安门</li>
-        <li>故宫</li>
-        <li>颐和园</li>
-        <li>八达岭长城</li>
-      </ul>
-    </section>
-    <section class="food">
-      <h2>美食</h2>
-      <p>北京，这座千年古都，不仅拥有悠久的历史和灿烂的文化，还隐藏着无数令人垂涎欲滴的美食。每一道美食都承载着北京的独特风情，折射出这座城市的魅力与活力。</p>
-      <el-scrollbar >
-        <div class="flex_bar">
-      <img src="..\assets\BEIJING\BJ- (1).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (2).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (3).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (4).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (5).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (6).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (7).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (8).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (9).jpg" width="400" height="500" >
-      <img src="..\assets\BEIJING\BJ- (10).jpg" width="400" height="500" >
-        </div>
-      </el-scrollbar>
-    </section>
-  </el-scrollbar>
+      <section class="intro">
+        <h1>欢迎来到北京</h1>
+        <p>远赴京城，一睹人间盛世，奔赴一场属于中国人的浪漫。</p>
+      </section>
+      <section class="culture">
+        <h2>文化</h2>
+        <p>
+          京，国之都也。京之华，奋安泰，存袤远，阅万象。冠剑戟峥嵘以据中正。史华汤汤，肇百宫室之鸿图基业，崇丽威灵。是以长城伫立，领武事，御狼烟。庙堂之上，纵横捭阖。协天人之赞，护佑沃野安宁。
+          故极目盛游，笑看风云，气魄贯坤乾。度宏规之翼以展博大，紫禁巍巍。历八百载之景呪骈臻，傲然寰宇
+        </p>
+      </section>
+      <section class="attractions">
+        <h2>景点</h2>
+        <ul>
+          <li>天安门</li>
+          <li>故宫</li>
+          <li>颐和园</li>
+          <li>八达岭长城</li>
+        </ul>
+      </section>
+      <section class="food">
+        <h2>美食</h2>
+        <p>
+          北京，这座千年古都，不仅拥有悠久的历史和灿烂的文化，还隐藏着无数令人垂涎欲滴的美食。每一道美食都承载着北京的独特风情，折射出这座城市的魅力与活力。
+        </p>
+        <el-scrollbar>
+          <div class="flex_bar">
+            <img src="..\assets\BEIJING\BJ- (1).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (2).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (3).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (4).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (5).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (6).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (7).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (8).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (9).jpg" width="400" height="500" />
+            <img src="..\assets\BEIJING\BJ- (10).jpg" width="400" height="500" />
+          </div>
+        </el-scrollbar>
+      </section>
+    </el-scrollbar>
   </main>
 </template>
 
@@ -54,10 +58,10 @@ body {
 
 main {
   width: 1050px;
-  margin-left:75px;
+  margin-left: 75px;
   margin-right: 75px;
   padding-left: 40px;
-  padding-right:40px;
+  padding-right: 40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -110,7 +114,7 @@ section {
   margin-bottom: 30px;
 }
 
-.flex_bar{
-  display:flex;
+.flex_bar {
+  display: flex;
 }
 </style>
