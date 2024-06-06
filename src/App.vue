@@ -3,9 +3,44 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <el-menu
+    :default-active="activeIndex"
+    class="el-menu-demo"
+    mode="horizontal"
+    :ellipsis="false"
+    bg-color="transparent"
+  >
+    <el-menu-item index="0">
+      <img style="width: 50px" src=".\assets\header_icon.png" alt="Map logo" />
+    </el-menu-item>
+    <el-menu-item index="1" style="font-size: 20px"> Tourist Map </el-menu-item>
+    <el-sub-menu index="2" style="margin-left: auto">
+      <template #title>Find us</template>
+      <el-sub-menu index="2-1">
+        <template #title>蔡宇喆</template>
+        <el-menu-item index="2-1-1">电话：18285065399</el-menu-item>
+        <el-menu-item index="2-2-2">微信：cosphilos</el-menu-item>
+      </el-sub-menu>
+      <el-sub-menu index="2-2">
+        <template #title>黄依乔</template>
+        <el-menu-item index="2-2-1">电话：18507950621</el-menu-item>
+        <el-menu-item index="2-2-2">微信：infinity_0621_</el-menu-item>
+      </el-sub-menu>
+      <el-sub-menu index="2-3">
+        <template #title>王可薇</template>
+        <el-menu-item index="2-3-1">电话：17530159926</el-menu-item>
+        <el-menu-item index="2-3-2">微信：qiqi01040656</el-menu-item>
+      </el-sub-menu>
+      <el-sub-menu index="2-4">
+        <template #title>钟亚伟</template>
+        <el-menu-item index="2-4-1">电话：18879510931</el-menu-item>
+        <el-menu-item index="2-4-2">微信：cosphilos</el-menu-item>
+      </el-sub-menu>
+    </el-sub-menu>
+  </el-menu>
   <main class="all">
     <div class="wrapper">
-      <el-scrollbar height="600px" tag="div">
+      <el-scrollbar height="717px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
         <RouterLink to="/hebei" class="scrollbar-demo-item">河北</RouterLink>
         <RouterLink to="/shanxi" class="scrollbar-demo-item">山西</RouterLink>
@@ -55,7 +90,7 @@ header {
   line-height: 1.5;
 }
 .wrapper {
-  height: 600px;
+  height: 717px;
 }
 .all {
   display: grid;
@@ -122,6 +157,11 @@ nav a:first-of-type {
   margin: 10px;
   text-align: center;
   border-radius: 4px;
+  color: var(--color-text);
+}
+
+.el-menu {
+  background-color: #f7f7f7;
 }
 </style>
 
