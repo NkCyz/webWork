@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到山西</h1>
       <p>山西——华夏之华，表里山河</p>
@@ -24,17 +25,23 @@
       <h2>美食</h2>
       <p>要说山西的美食，面是绕不过去的，“天下面食，尽在三晋”，山西面食从远古走向今天，也从黄土高原走向全国，走向世界。山西面食，不仅是中华民族饮食文化中的重要组成部分，也是世界饮食文化中的一朵奇葩。
         一面多样，一面百味</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片10.jpg" width="400" height="500" >
+        <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\SHANXI\SX- (1).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (2).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (3).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (4).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (5).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (6).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (7).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (8).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (9).jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\SX- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -49,8 +56,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -101,5 +110,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

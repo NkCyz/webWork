@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到河南</h1>
       <p>老家河南，一个来了都说中的地方!</p>
@@ -23,17 +24,23 @@
     <section class="food">
       <h2>美食</h2>
       <p>当提及中国美食之都，河南省无疑是一个不可忽视的地方。位于中原腹地的这片土地，凭借着其丰富的历史文化底蕴和独特的地理优势，孕育出了无数令人垂涎欲滴的美食珍馐。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\HENAN\HN- (1).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (2).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (3).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (4).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (5).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (6).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (7).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (8).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (9).jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\HN- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -48,8 +55,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -100,5 +109,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

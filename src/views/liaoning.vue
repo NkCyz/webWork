@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到辽宁</h1>
       <p>山海有情，天辽地宁。</p>
@@ -28,17 +29,23 @@
       <h2>美食</h2>
       <p>辽宁省位于中国东北地区，这里的菜肴以其丰富的海陆资源和独特的地域特色，形成了独具一格的烹饪风格。在这片土地上，
         历史和文化的熏陶赋予了辽宁菜系独特的魅力，使其成为中国烹饪文化的重要组成部分。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片10.jpg" width="400" height="500" >
+        <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\LIAONING\LN- (1).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (2).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (3).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (4).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (5).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (6).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (7).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (8).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (9).jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\LN- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -53,8 +60,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -105,5 +114,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>
