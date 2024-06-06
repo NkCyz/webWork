@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到福建</h1>
       <p>海声与山色的共鸣，繁华与文艺的交错</p>
@@ -23,17 +24,23 @@
     <section class="food">
       <h2>美食</h2>
       <p>“佛闻弃禅跳墙来，闽地美食香气开。鱼丸舞动如鱼游，闽菜精髓尽呈现，尝味福地醉心梦。”</p>
-      <img src="..\assets\FUJIAN\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+      <img src="..\assets\FUJIAN\FJ- (1).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (2).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (3).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (4).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (5).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (6).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (7).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (8).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (9).jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\FJ- (10).jpg" width="400" height="500" >
+        </div>
+      </el-scrollbar >
     </section>
+  </el-scrollbar>
+  
   </main>
 </template>
 
@@ -48,8 +55,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -100,5 +109,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

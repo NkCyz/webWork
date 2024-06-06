@@ -2,39 +2,49 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
-      <h1>欢迎来到天津</h1>
-      <p>天津，一座古老而富有活力的城市，它如同一位智者，凝聚着悠久的历史和繁华的现代。</p>
+      <h1>欢迎来到香港</h1>
+      <p>香港🇭🇰是天堂，也是人间</p>
     </section>
     <section class="culture">
       <h2>文化</h2>
-      <p>天津，自古便是北方的门户，更是南北交通的枢纽，自古便是北方的门户。这里曾涌现出无数历史名人，如近代的梁启超、严复，他们的思想照亮了中国的近代化之路；更有近代实业家张之洞、
-        文学家冯骥才等，他们的足迹遍布天津的大街小巷，为这座城市增添了无尽的文化底蕴。天津人热情好客，民俗风情独特。从茶馆的相声表演，到街头巷尾的民间艺术，都让人感受到这座城市独特的文化气息。
-        在这里，你可以品味到浓郁的北方风情，感受到天津人民的热情与活力。</p>
+      <p>时光流转，紫荆明艳；
+        白云过山峰，明珠焕新彩；
+        洗尘霾穿越风云，看香江再写华章；
+        甘六载香江奔涌，共前行紫荆花艳；
+        祖国富强统一，生逢其时，吾辈庆幸；
+        香港好，国家好；国家好，香港更好</p>
     </section>
     <section class="attractions">
       <h2>景点</h2>
       <ul>
-        <li>五大道</li>
-        <li>意大利风情区</li>
-        <li>世纪钟</li>
-        <li>天津之眼</li>
+        <li>维多利亚港</li>
+        <li>旺角</li>
+        <li>铜锣湾</li>
+        <li>尖沙咀</li>
       </ul>
     </section>
     <section class="food">
       <h2>美食</h2>
-      <p>津菜，源自天津，是天津地方特色的烹饪流派，它以海鲜为主，兼收并蓄，融合了北方的粗犷和南方的细腻，形成了独特的风味。</p>
-      <img src="..\assets\TIANJIN\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\TIANJIN\图片10.jpg" width="400" height="500" >
+      <p>在这里，来自世界各地的烹饪文化得以融汇，塑造了别具一格的港式风味。在众多美食中，龙虾因其昂贵与独特味感，于90年代开始，受港式粤菜文化影响下，逐渐成为人们心中的美食珍品。</p>
+      <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\XIANGGANG\XG- (1).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (2).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (3).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (4).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (5).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (6).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (7).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (8).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (9).jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\XG- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -49,8 +59,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -101,5 +113,9 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+
+.flex_bar{
+  display:flex;
 }
 </style>

@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到江西</h1>
       <p>豫章故郡，九州同一，浔阳江头，枫叶荻花，窑火不息，茶瓷交织，庐陵晓月，临川才子。</p>
@@ -33,19 +34,27 @@
     </section>
     <section class="food">
       <h2>美食</h2>
-      <p>江西菜又称为赣菜，大致分为鄱阳湖、南昌、赣南三派，口味上各有差异，鄱阳湖讲求原汁原味，赣南则重咸、重辣，南昌口味偏辣。江西菜少有隆重的大菜或精致的小炒，朴实、家常，是江西菜最大的特色。</p>
-      <img src="..\assets\JIANGXI\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\JIANGXI\图片10.jpg" width="400" height="500" >
+      <p>江西菜又称为赣菜，大致分为鄱阳湖、南昌、赣南三派，口味上各有差异，鄱阳湖讲求原汁原味，赣南则重咸、重辣，南昌口味偏辣。江西菜少有隆重的大菜或精致的小炒，朴实、家常，
+        是江西菜最大的特色。</p>
+        <el-scrollbar >
+        <div class="flex_bar">
+
+        </div>
+        </el-scrollbar>
+      <img src="..\assets\JIANGXI\JX- (1).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (2).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (3).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (4).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (5).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (6).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (7).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (8).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (9).jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\JX- (10).jpg" width="400" height="500" >
     </section>
+  </el-scrollbar>
   </main>
+  
 </template>
 
 <style scoped>
@@ -59,8 +68,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -111,5 +122,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到内蒙古</h1>
       <p>一眼醉 听颜色说浪漫 看自然述衷肠 
@@ -26,17 +27,23 @@
       <h2>美食</h2>
       <p>内蒙古自治区，这片广袤的草原大地，是中国北方著名的旅游胜地，也是一个拥有丰富美食文化的地区。内蒙古美食以其独特的风味和丰富的品种，
         吸引着来自世界各地的游客和美食爱好者。</p>
-      <img src="..\assets\NEIMENGGU\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\NEIMENGGU\图片10.jpg" width="400" height="500" >
+        <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\NEIMENGGU\NMG- (1).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (2).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (3).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (4).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (5).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (6).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (7).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (8).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (9).jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\NMG- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -51,8 +58,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -103,5 +112,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

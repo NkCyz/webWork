@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到浙江</h1>
       <p>山水和文化相遇注定是一个没有结局的故事！</p>
@@ -23,17 +24,23 @@
     <section class="food">
       <h2>美食</h2>
       <p>浙菜：简称“浙菜”，起源于新石器时代的河姆渡文化，经越国先民的开拓积累，汉唐时期的成熟定型，宋元时期的繁荣和明清时期的发展，浙江菜的基本风格已经形成。</p>
-      <img src="..\assets\ZHEJIANG\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\ZHEJIANG\图片10.jpg" width="400" height="500" >
+      <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\ZHEJIANG\ZJ- (1).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (2).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (3).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (4).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (5).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (6).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (7).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (8).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (9).jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\ZJ- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -48,8 +55,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -100,5 +109,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

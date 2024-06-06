@@ -8,9 +8,54 @@ import { RouterLink, RouterView } from 'vue-router';
     <el-menu-item index="0">
       <img style="width: 50px" src=".\assets\header_icon.png" alt="Map logo" />
     </el-menu-item>
-    <el-menu-item index="1" style="font-size: 20px"> Tourist Map </el-menu-item>
+    <el-menu-item index="1" style="font-size: 20px"> 旅游地图 </el-menu-item>
+    <el-sub-menu index="4" style="margin-left: auto">
+      <template #title>热门省市</template>
+      <el-menu-item index="4-3">
+        <a href="https://www.shenzhentour.com/">深圳市</a>
+      </el-menu-item>
+      <el-menu-item index="4-1">
+        <a href="http://www.visitxm.com/">厦门市</a>
+      </el-menu-item>
+      <el-menu-item index="4-4">
+        <a href="http://www.cdctg.com/#/webIndex">成都市</a>
+      </el-menu-item>
+      <el-menu-item index="4-6">
+        <a href="http://www.lyta.com.cn/guide/page">洛阳市</a>
+      </el-menu-item>
+      <el-menu-item index="4-5">
+        <a href="https://wlj.wuhan.gov.cn/ztzl_27/wqzt/dywhzd/">武汉市</a>
+      </el-menu-item>
+      <el-menu-item index="4-2">
+        <a href="https://www.zbta.net/">淄博市</a>
+      </el-menu-item>
+    </el-sub-menu>
+    <el-sub-menu index="3" style="margin-left: auto">
+      <template #title>出行&酒店</template>
+      <el-menu-item index="3-1">
+        <a href="https://www.ctrip.com//">携程</a>
+      </el-menu-item>
+      <el-menu-item index="3-2">
+        <a href="https://www.elong.com/">艺龙</a>
+      </el-menu-item>
+      <el-menu-item index="3-3">
+        <a href="https://hotel.qunar.com/">去哪儿</a>
+      </el-menu-item>
+    </el-sub-menu>
+    <el-sub-menu index="5" style="margin-left: auto">
+      <template #title>热门演出</template>
+      <el-menu-item index="5-1">
+        <a href="https://www.damai.cn/">大麦</a>
+      </el-menu-item>
+      <el-menu-item index="5-2">
+        <a href="https://www.polyt.cn/#/">保利</a>
+      </el-menu-item>
+      <el-menu-item index="5-3">
+        <a href="https://show.maoyan.com/">猫眼</a>
+      </el-menu-item>
+    </el-sub-menu>
     <el-sub-menu index="2" style="margin-left: auto">
-      <template #title>Find us</template>
+      <template #title>联系我们</template>
       <el-sub-menu index="2-1">
         <template #title>蔡宇喆</template>
         <el-menu-item index="2-1-1">电话：18285065399</el-menu-item>
@@ -29,7 +74,7 @@ import { RouterLink, RouterView } from 'vue-router';
       <el-sub-menu index="2-4">
         <template #title>钟亚伟</template>
         <el-menu-item index="2-4-1">电话：18879510931</el-menu-item>
-        <el-menu-item index="2-4-2">微信：cosphilos</el-menu-item>
+        <el-menu-item index="2-4-2">微信：zyw18879510931</el-menu-item>
       </el-sub-menu>
     </el-sub-menu>
   </el-menu>
@@ -37,6 +82,10 @@ import { RouterLink, RouterView } from 'vue-router';
     <div class="wrapper">
       <el-scrollbar height="717px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
+        <RouterLink to="/beijing" class="scrollbar-demo-item">北京</RouterLink>
+        <RouterLink to="/tianjin" class="scrollbar-demo-item">天津</RouterLink>
+        <RouterLink to="/shanghai" class="scrollbar-demo-item">上海</RouterLink>
+        <RouterLink to="/chongqing" class="scrollbar-demo-item">重庆</RouterLink>
         <RouterLink to="/hebei" class="scrollbar-demo-item">河北</RouterLink>
         <RouterLink to="/shanxi" class="scrollbar-demo-item">山西</RouterLink>
         <RouterLink to="/liaoning" class="scrollbar-demo-item">辽宁</RouterLink>
@@ -59,16 +108,12 @@ import { RouterLink, RouterView } from 'vue-router';
         <RouterLink to="/shaanxi" class="scrollbar-demo-item">陕西</RouterLink>
         <RouterLink to="/gansu" class="scrollbar-demo-item">甘肃</RouterLink>
         <RouterLink to="/qinghai" class="scrollbar-demo-item">青海</RouterLink>
-        <RouterLink to="/taiwan" class="scrollbar-demo-item">台湾</RouterLink>
         <RouterLink to="/neimenggu" class="scrollbar-demo-item">内蒙古</RouterLink>
         <RouterLink to="/guangxi" class="scrollbar-demo-item">广西</RouterLink>
         <RouterLink to="/xizang" class="scrollbar-demo-item">西藏</RouterLink>
         <RouterLink to="/ningxia" class="scrollbar-demo-item">宁夏</RouterLink>
         <RouterLink to="/xinjiang" class="scrollbar-demo-item">新疆</RouterLink>
-        <RouterLink to="/beijing" class="scrollbar-demo-item">北京</RouterLink>
-        <RouterLink to="/tianjin" class="scrollbar-demo-item">天津</RouterLink>
-        <RouterLink to="/shanghai" class="scrollbar-demo-item">上海</RouterLink>
-        <RouterLink to="/chongqing" class="scrollbar-demo-item">重庆</RouterLink>
+        <RouterLink to="/taiwan" class="scrollbar-demo-item">台湾</RouterLink>
         <RouterLink to="/xianggang" class="scrollbar-demo-item">香港</RouterLink>
         <RouterLink to="/aomen" class="scrollbar-demo-item">澳门</RouterLink>
       </el-scrollbar>

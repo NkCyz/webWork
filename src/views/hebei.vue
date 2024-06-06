@@ -2,6 +2,7 @@
 
 <template>
   <main>
+    <el-scrollbar height="717px" tag="div">
     <section class="intro">
       <h1>欢迎来到河北</h1>
       <p>这么近那么美，周末到河北。</p>
@@ -23,17 +24,23 @@
       <h2>美食</h2>
       <p>河北，紧邻着首都北京，算得上是“天子脚下”，但存在感似乎并不高。连带着河北的各种特色美食也一个比一个低调。河北的美食虽说低调，可千万不能小看，个个都独具特色，
         且美味自成一派。</p>
-      <img src="..\assets\HEBEI\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\HEBEI\图片10.jpg" width="400" height="500" >
+        <el-scrollbar >
+        <div class="flex_bar">
+          <img src="..\assets\HEBEI\HB- (1).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (2).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (3).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (4).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (5).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (6).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (7).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (8).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (9).jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\HB- (10).jpg" width="400" height="500" >
+        </div>
+        </el-scrollbar>
+      
     </section>
+  </el-scrollbar>
   </main>
 </template>
 
@@ -48,8 +55,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right:40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -100,5 +109,8 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+.flex_bar{
+  display:flex;
 }
 </style>

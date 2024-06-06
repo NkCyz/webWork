@@ -2,42 +2,46 @@
 
 <template>
   <main>
-    <section class="intro">
-      <h1>欢迎来到香港</h1>
-      <p>香港🇭🇰是天堂，也是人间</p>
-    </section>
-    <section class="culture">
-      <h2>文化</h2>
-      <p>时光流转，紫荆明艳；
-        白云过山峰，明珠焕新彩；
-        洗尘霾穿越风云，看香江再写华章；
-        甘六载香江奔涌，共前行紫荆花艳；
-        祖国富强统一，生逢其时，吾辈庆幸；
-        香港好，国家好；国家好，香港更好</p>
-    </section>
-    <section class="attractions">
-      <h2>景点</h2>
-      <ul>
-        <li>维多利亚港</li>
-        <li>旺角</li>
-        <li>铜锣湾</li>
-        <li>尖沙咀</li>
-      </ul>
-    </section>
-    <section class="food">
-      <h2>美食</h2>
-      <p>在这里，来自世界各地的烹饪文化得以融汇，塑造了别具一格的港式风味。在众多美食中，龙虾因其昂贵与独特味感，于90年代开始，受港式粤菜文化影响下，逐渐成为人们心中的美食珍品。</p>
-      <img src="..\assets\XIANGGANG\图片1.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片2.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片3.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片4.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片5.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片6.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片7.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片8.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片9.jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\图片10.jpg" width="400" height="500" >
-    </section>
+    <el-scrollbar height="717px" tag="div">
+      <section class="intro">
+        <h1>欢迎来到新疆</h1>
+        <p>风吹草原，雪洒塔城。</p>
+      </section>
+      <section class="culture">
+        <h2>文化</h2>
+        <p>
+          新疆位于中国西北部，是中国的五个自治区之一，也是多民族和谐共处的地区之一。新疆历史悠久，是古代丝绸之路的重要通道之一，曾是东西方文化交流的重要枢纽。新疆拥有丰富多彩的文化，包括维吾尔族、哈萨克族、汉族等多个民族的文化，这些文化在这片土地上相互交融、共同发展，形成了独特而丰富的新疆文化。
+        </p>
+      </section>
+      <section class="attractions">
+        <h2>景点</h2>
+        <ul>
+          <li>喀纳斯湖</li>
+          <li>天山天池</li>
+          <li>布尔津五彩滩</li>
+          <li>喀拉峻大草原</li>
+        </ul>
+      </section>
+      <section class="food">
+        <h2>美食</h2>
+        <p>新疆美食，独具特色，香飘万里。烤全羊、手抓羊排、大盘鸡、拉面，每一道都是对新疆风味的完美演绎，让你在每一口中尽情领略草原之上的独特魅力。品味新疆，品味一种草原情怀。</p>
+        <el-scrollbar>
+          <div class="flex_bar">
+            <img src="..\assets\XinJiang\XJ- (1).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (2).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (3).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (4).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (5).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (6).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (7).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (8).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (9).jpg" width="400" height="500">
+            <img src="..\assets\XinJiang\XJ- (10).jpg" width="400" height="500">
+          </div>
+        </el-scrollbar>
+      </section>
+    </el-scrollbar>
+
   </main>
 </template>
 
@@ -52,8 +56,10 @@ body {
 
 main {
   width: 1050px;
-  margin: 150px;
-  padding: 80px;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -104,5 +110,9 @@ ul li {
 
 section {
   margin-bottom: 30px;
+}
+
+.flex_bar {
+  display: flex;
 }
 </style>
