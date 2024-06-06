@@ -23,16 +23,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>“佛闻弃禅跳墙来，闽地美食香气开。鱼丸舞动如鱼游，闽菜精髓尽呈现，尝味福地醉心梦。”</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\FUJIAN\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\FUJIAN\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

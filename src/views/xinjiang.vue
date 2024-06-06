@@ -27,16 +27,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>在这里，来自世界各地的烹饪文化得以融汇，塑造了别具一格的港式风味。在众多美食中，龙虾因其昂贵与独特味感，于90年代开始，受港式粤菜文化影响下，逐渐成为人们心中的美食珍品。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\XIANGGANG\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\XIANGGANG\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

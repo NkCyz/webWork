@@ -23,16 +23,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>浙菜：简称“浙菜”，起源于新石器时代的河姆渡文化，经越国先民的开拓积累，汉唐时期的成熟定型，宋元时期的繁荣和明清时期的发展，浙江菜的基本风格已经形成。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ZHEJIANG\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\ZHEJIANG\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

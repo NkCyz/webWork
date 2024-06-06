@@ -23,16 +23,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>当提及中国美食之都，河南省无疑是一个不可忽视的地方。位于中原腹地的这片土地，凭借着其丰富的历史文化底蕴和独特的地理优势，孕育出了无数令人垂涎欲滴的美食珍馐。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HENAN\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

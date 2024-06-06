@@ -24,16 +24,16 @@
       <h2>美食</h2>
       <p>要说山西的美食，面是绕不过去的，“天下面食，尽在三晋”，山西面食从远古走向今天，也从黄土高原走向全国，走向世界。山西面食，不仅是中华民族饮食文化中的重要组成部分，也是世界饮食文化中的一朵奇葩。
         一面多样，一面百味</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANXI\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\SHANXI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

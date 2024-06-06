@@ -23,16 +23,16 @@
       <h2>美食</h2>
       <p>河北，紧邻着首都北京，算得上是“天子脚下”，但存在感似乎并不高。连带着河北的各种特色美食也一个比一个低调。河北的美食虽说低调，可千万不能小看，个个都独具特色，
         且美味自成一派。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEBEI\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\HEBEI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

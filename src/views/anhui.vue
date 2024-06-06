@@ -24,16 +24,16 @@
       <h2>美食</h2>
       <p>寻味安徽，皖南徽菜的咸鲜醇正，沿江美食的清淡可口，皖中美味的融合鼎新，皖北面食的朴实深厚。走遍市井街巷，用舌尖丈量安徽，解锁多元的皖美饮食文化；嗨吃皖美味道，
         用味道了解地域风情。安徽的美食带着分明的地域烟火气，讲述着地道风味的丰富多彩。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\ANHUI\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\ANHUI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

@@ -26,16 +26,16 @@
       <h2>美食</h2>
       <p>内蒙古自治区，这片广袤的草原大地，是中国北方著名的旅游胜地，也是一个拥有丰富美食文化的地区。内蒙古美食以其独特的风味和丰富的品种，
         吸引着来自世界各地的游客和美食爱好者。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\NEIMENGGU\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\NEIMENGGU\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

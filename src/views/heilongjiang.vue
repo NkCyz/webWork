@@ -22,16 +22,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>黑龙江位于中国最东北部，是亚洲与太平洋地区陆路通往俄罗斯远东和欧洲大陆的重要通道，黑龙江不仅各种自然资源丰富，其中的特色美食和小吃也数不胜数。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\HEILONGJIANG\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\HEILONGJIANG\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

@@ -28,16 +28,16 @@
       <h2>美食</h2>
       <p>辽宁省位于中国东北地区，这里的菜肴以其丰富的海陆资源和独特的地域特色，形成了独具一格的烹饪风格。在这片土地上，
         历史和文化的熏陶赋予了辽宁菜系独特的魅力，使其成为中国烹饪文化的重要组成部分。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\LIAONING\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\LIAONING\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

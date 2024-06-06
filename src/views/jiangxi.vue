@@ -34,16 +34,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>江西菜又称为赣菜，大致分为鄱阳湖、南昌、赣南三派，口味上各有差异，鄱阳湖讲求原汁原味，赣南则重咸、重辣，南昌口味偏辣。江西菜少有隆重的大菜或精致的小炒，朴实、家常，是江西菜最大的特色。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGXI\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGXI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

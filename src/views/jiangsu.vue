@@ -23,16 +23,16 @@
       <h2>美食</h2>
       <p>江苏菜系味道清鲜，选料讲究，刀工精细，咸中稍甜，造型也特色鲜明。由于江浙地区气候潮湿，又靠近沿海，厨师往往会在菜中增加糖分，以去除湿气，并且很少放辣椒，避免上火。
         江苏的历代名厨为苏菜创造出丰富多样的佳肴，尤其苏州、淮安、扬州一带，可说是是名厨美馔的摇篮。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JIANGSU\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\JIANGSU\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

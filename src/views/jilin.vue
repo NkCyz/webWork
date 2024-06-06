@@ -30,16 +30,16 @@
       <h2>美食</h2>
       <p>吉林市的美食绝对让你大饱口福！首先，特色类的小吃比较多，比如煎粉，鸡汤干豆腐，朝鲜族风味的炒年糕，其次，
         东北菜当中的吉林菜，乌拉火锅，白肉血肠，清蒸白鱼， 吉林菜特色可以概括为：善制野味、讲究火候、醇厚香浓、朴素实惠。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\JILIN\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\JILIN\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

@@ -1,15 +1,10 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <el-menu
-    :default-active="activeIndex"
-    class="el-menu-demo"
-    mode="horizontal"
-    :ellipsis="false"
-    bg-color="transparent"
-  >
+  <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" :ellipsis="false"
+    bg-color="transparent">
     <el-menu-item index="0">
       <img style="width: 50px" src=".\assets\header_icon.png" alt="Map logo" />
     </el-menu-item>
@@ -82,6 +77,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterView />
     </div>
     <div id="map"></div>
+    <div class="province-info" id="provinceInfo"></div>
   </main>
 </template>
 
@@ -165,3 +161,23 @@ nav a:first-of-type {
 }
 </style>
 
+<style>
+#map {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  /* 去掉地图容器边框 */
+  box-shadow: none;
+  /* 去掉地图容器阴影 */
+}
+
+.province-info {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>

@@ -24,16 +24,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>津菜，源自天津，是天津地方特色的烹饪流派，它以海鲜为主，兼收并蓄，融合了北方的粗犷和南方的细腻，形成了独特的风味。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\TIANJIN\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\TIANJIN\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

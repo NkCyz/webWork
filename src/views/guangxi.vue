@@ -24,16 +24,16 @@
       <h2>美食</h2>
       <p>广西，一个山美水美人更美的地方。在这片山清水秀的土地上，不单单是造就了广西山水梯田的壮美，还养育了一方人，滋生了万种美味，
         这里的传统特色美食让众多食客赞叹不已，味道独树一帜。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\GUANGXI\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\GUANGXI\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

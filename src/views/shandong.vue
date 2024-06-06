@@ -27,16 +27,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>鲁菜在中国饮食文化史中的重要地位的确是其他菜系所不可逾越与替代的，凡是中式菜肴烹饪的手法，总或多或少有些鲁菜的底色在其中，是中华美食文化的根基。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\SHANDONG\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\SHANDONG\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>

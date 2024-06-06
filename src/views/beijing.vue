@@ -23,16 +23,16 @@
     <section class="food">
       <h2>美食</h2>
       <p>北京，这座千年古都，不仅拥有悠久的历史和灿烂的文化，还隐藏着无数令人垂涎欲滴的美食。每一道美食都承载着北京的独特风情，折射出这座城市的魅力与活力。</p>
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片1.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片2.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片3.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片4.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片5.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片6.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片7.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片8.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片9.jpg" width="400" height="500" >
-      <img src="C:\Users\lenovo\Desktop\wkw\webWork\src\assets\BEIJING\图片10.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\BEIJING\图片10.jpg" width="400" height="500" >
     </section>
   </main>
 </template>
