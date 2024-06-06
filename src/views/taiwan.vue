@@ -1,3 +1,5 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+// eslint-disable-next-line vue/multi-word-component-names
 <script setup></script>
 
 <template>
@@ -45,7 +47,7 @@
   </main>
 </template>
 
-<style TWoped>
+<style scoped>
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;

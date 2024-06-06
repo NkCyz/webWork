@@ -45,7 +45,7 @@
   </main>
 </template>
 
-<style XJoped>
+<style scoped>
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
