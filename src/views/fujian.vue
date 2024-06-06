@@ -3,44 +3,45 @@
 <template>
   <main>
     <el-scrollbar height="717px" tag="div">
-    <section class="intro">
-      <h1>欢迎来到福建</h1>
-      <p>海声与山色的共鸣，繁华与文艺的交错</p>
-    </section>
-    <section class="culture">
-      <h2>文化</h2>
-      <p>福建的历史，是一部民族文化的传承史。福建的文化底蕴深厚，无论是古代的闽南文化、客家文化，
-        还是现代的闽南语歌曲、木偶戏等，都是福建文化的瑰宝。福建的文化，既体现在其丰富的物质文化遗产上，也体现在其独特的非物质文化遗产上。</p>
-    </section>
-    <section class="attractions">
-      <h2>景点</h2>
-      <ul>
-        <li>武夷山</li>
-        <li>三坊七巷</li>
-        <li>鼓浪屿</li>
-        <li>湄洲岛</li>
-      </ul>
-    </section>
-    <section class="food">
-      <h2>美食</h2>
-      <p>“佛闻弃禅跳墙来，闽地美食香气开。鱼丸舞动如鱼游，闽菜精髓尽呈现，尝味福地醉心梦。”</p>
-      <el-scrollbar >
-        <div class="flex_bar">
-      <img src="..\assets\FUJIAN\FJ- (1).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (2).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (3).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (4).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (5).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (6).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (7).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (8).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (9).jpg" width="400" height="500" >
-      <img src="..\assets\FUJIAN\FJ- (10).jpg" width="400" height="500" >
-        </div>
-      </el-scrollbar >
-    </section>
-  </el-scrollbar>
-  
+      <section class="intro">
+        <h1>欢迎来到福建</h1>
+        <p>海声与山色的共鸣，繁华与文艺的交错</p>
+      </section>
+      <section class="culture">
+        <h2>文化</h2>
+        <p>
+          福建的历史，是一部民族文化的传承史。福建的文化底蕴深厚，无论是古代的闽南文化、客家文化，
+          还是现代的闽南语歌曲、木偶戏等，都是福建文化的瑰宝。福建的文化，既体现在其丰富的物质文化遗产上，也体现在其独特的非物质文化遗产上。
+        </p>
+      </section>
+      <section class="attractions">
+        <h2>景点</h2>
+        <ul>
+          <li>武夷山</li>
+          <li>三坊七巷</li>
+          <li>鼓浪屿</li>
+          <li>湄洲岛</li>
+        </ul>
+      </section>
+      <section class="food">
+        <h2>美食</h2>
+        <p>“佛闻弃禅跳墙来，闽地美食香气开。鱼丸舞动如鱼游，闽菜精髓尽呈现，尝味福地醉心梦。”</p>
+        <el-scrollbar>
+          <div class="flex_bar">
+            <img src="..\assets\FUJIAN\FJ- (6).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (7).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (8).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (9).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (10).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (1).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (2).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (3).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (4).jpg" width="400" height="500" />
+            <img src="..\assets\FUJIAN\FJ- (5).jpg" width="400" height="500" />
+          </div>
+        </el-scrollbar>
+      </section>
+    </el-scrollbar>
   </main>
 </template>
 
@@ -55,10 +56,10 @@ body {
 
 main {
   width: 1050px;
-  margin-left:75px;
+  margin-left: 75px;
   margin-right: 75px;
   padding-left: 40px;
-  padding-right:40px;
+  padding-right: 40px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
@@ -110,7 +111,7 @@ ul li {
 section {
   margin-bottom: 30px;
 }
-.flex_bar{
-  display:flex;
+.flex_bar {
+  display: flex;
 }
 </style>
