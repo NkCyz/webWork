@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到西藏</h1>
         <p>雪域高原，心灵净土。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>西藏美食，清香满溢，心灵之味。酥油茶、青稞酒、藏香肠、酥油糌粑，每一道都是对西藏高原风情的完美诠释，让你在舌尖上感受到青藏高原的纯净与美好。品味西藏，品味一场心灵的净化之旅。</p>
+        <p>
+          西藏美食，清香满溢，心灵之味。酥油茶、青稞酒、藏香肠、酥油糌粑，每一道都是对西藏高原风情的完美诠释，让你在舌尖上感受到青藏高原的纯净与美好。品味西藏，品味一场心灵的净化之旅。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\XiZang\XZ- (1).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (2).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (3).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (4).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (5).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (6).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (7).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (8).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (9).jpg" width="400" height="500">
-            <img src="..\assets\XiZang\XZ- (10).jpg" width="400" height="500">
+            <img src="..\assets\XiZang\XZ- (1).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (2).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (3).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (4).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (5).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (6).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (7).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (8).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (9).jpg" width="400" height="500" />
+            <img src="..\assets\XiZang\XZ- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

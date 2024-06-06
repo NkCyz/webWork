@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到宁夏</h1>
         <p>黄河之滨，沙漠明珠。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>宁夏美食，滋味无穷，回味无穷。羊肉泡馍、手抓羊肉、涮羊肉、宁夏拉面，每一道都散发着浓郁的宁夏风情，让你在舌尖上感受到丝丝回荡的美食记忆。品味宁夏，品味黄河畔的美好滋味。</p>
+        <p>
+          宁夏美食，滋味无穷，回味无穷。羊肉泡馍、手抓羊肉、涮羊肉、宁夏拉面，每一道都散发着浓郁的宁夏风情，让你在舌尖上感受到丝丝回荡的美食记忆。品味宁夏，品味黄河畔的美好滋味。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\NingXia\NX- (1).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (2).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (3).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (4).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (5).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (6).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (7).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (8).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (9).jpg" width="400" height="500">
-            <img src="..\assets\NingXia\NX- (10).jpg" width="400" height="500">
+            <img src="..\assets\NingXia\NX- (1).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (2).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (3).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (4).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (5).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (6).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (7).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (8).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (9).jpg" width="400" height="500" />
+            <img src="..\assets\NingXia\NX- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

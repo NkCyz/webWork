@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到云南</h1>
         <p>彩云之南，风情万种。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>云南美食，鲜香四溢，风味独特。过桥米线、汽锅鸡、火腿粑粑、酸菜鱼，每一道都是对云南风味的完美展现，让你在舌尖上尽情感受云南的多姿多彩。来云南，品味一场风情万种的美食之旅。</p>
+        <p>
+          云南美食，鲜香四溢，风味独特。过桥米线、汽锅鸡、火腿粑粑、酸菜鱼，每一道都是对云南风味的完美展现，让你在舌尖上尽情感受云南的多姿多彩。来云南，品味一场风情万种的美食之旅。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\YunNan\YN- (1).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (2).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (3).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (4).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (5).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (6).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (7).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (8).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (9).jpg" width="400" height="500">
-            <img src="..\assets\YunNan\YN- (10).jpg" width="400" height="500">
+            <img src="..\assets\YunNan\YN- (1).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (2).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (3).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (4).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (5).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (6).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (7).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (8).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (9).jpg" width="400" height="500" />
+            <img src="..\assets\YunNan\YN- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

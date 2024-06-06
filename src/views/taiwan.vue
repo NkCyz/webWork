@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到台湾</h1>
         <p>宝岛台湾，人间仙境。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>台湾美食，鲜香可口，风味独特。小吃、夜市、台式料理、台湾茶，每一样都是对台湾风味的完美呈现，让你在舌尖上感受到来自宝岛的美味与幸福。品尝台湾，品味一份精致与热情。</p>
+        <p>
+          台湾美食，鲜香可口，风味独特。小吃、夜市、台式料理、台湾茶，每一样都是对台湾风味的完美呈现，让你在舌尖上感受到来自宝岛的美味与幸福。品尝台湾，品味一份精致与热情。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\TaiWan\TW- (1).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (2).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (3).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (4).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (5).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (6).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (7).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (8).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (9).jpg" width="400" height="500">
-            <img src="..\assets\TaiWan\TW- (10).jpg" width="400" height="500">
+            <img src="..\assets\TaiWan\TW- (1).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (2).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (3).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (4).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (5).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (6).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (7).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (8).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (9).jpg" width="400" height="500" />
+            <img src="..\assets\TaiWan\TW- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到贵州</h1>
         <p>千山万水，黔韵之美。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>贵州美食，山珍海味，诱人多彩。酸汤鱼、黔菜、毛血旺、酸汤粉，每一道都是对贵州丰富风味的诠释，让你在舌尖上感受到独特的酸辣鲜香，品味山水之间的美食文化。漫步贵州，品尝一番异域风情。</p>
+        <p>
+          贵州美食，山珍海味，诱人多彩。酸汤鱼、黔菜、毛血旺、酸汤粉，每一道都是对贵州丰富风味的诠释，让你在舌尖上感受到独特的酸辣鲜香，品味山水之间的美食文化。漫步贵州，品尝一番异域风情。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\GuiZhou\GZ- (1).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (2).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (3).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (4).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (5).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (6).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (7).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (8).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (9).jpg" width="400" height="500">
-            <img src="..\assets\GuiZhou\GZ- (10).jpg" width="400" height="500">
+            <img src="..\assets\GuiZhou\GZ- (1).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (2).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (3).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (4).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (5).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (6).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (7).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (8).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (9).jpg" width="400" height="500" />
+            <img src="..\assets\GuiZhou\GZ- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

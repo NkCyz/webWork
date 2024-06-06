@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到陕西</h1>
         <p>古都陕西，历史之魂。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>陕西美食，千年味道，唇齿留香。肉夹馍、油泼面、凉皮、羊肉泡馍，每一道都是对陕西丰厚历史和独特风情的呈现，让你在每一口中尽情感受千年文化的独特魅力。来陕西，品味历史的美食传承。</p>
+        <p>
+          陕西美食，千年味道，唇齿留香。肉夹馍、油泼面、凉皮、羊肉泡馍，每一道都是对陕西丰厚历史和独特风情的呈现，让你在每一口中尽情感受千年文化的独特魅力。来陕西，品味历史的美食传承。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\ShaanXi\SX- (1).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (2).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (3).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (4).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (5).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (6).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (7).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (8).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (9).jpg" width="400" height="500">
-            <img src="..\assets\ShaanXi\SX- (10).jpg" width="400" height="500">
+            <img src="..\assets\ShaanXi\SX- (1).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (2).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (3).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (4).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (5).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (6).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (7).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (8).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (9).jpg" width="400" height="500" />
+            <img src="..\assets\ShaanXi\SX- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

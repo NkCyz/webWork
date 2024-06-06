@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到甘肃</h1>
         <p>沙漠绿洲，丝路之魂。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>甘肃美食，沉淀千年，风味独特。羊肉串、牛肉面、手抓饼、甘南牛肉面，每一道都是对甘肃独特风味的诠释，让你在舌尖上感受历史的厚重和文化的丰富。品味甘肃，品味丝路文化的绵延与传承。</p>
+        <p>
+          甘肃美食，沉淀千年，风味独特。羊肉串、牛肉面、手抓饼、甘南牛肉面，每一道都是对甘肃独特风味的诠释，让你在舌尖上感受历史的厚重和文化的丰富。品味甘肃，品味丝路文化的绵延与传承。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\GanSu\GS- (1).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (2).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (3).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (4).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (5).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (6).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (7).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (8).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (9).jpg" width="400" height="500">
-            <img src="..\assets\GanSu\GS- (10).jpg" width="400" height="500">
+            <img src="..\assets\GanSu\GS- (1).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (2).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (3).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (4).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (5).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (6).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (7).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (8).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (9).jpg" width="400" height="500" />
+            <img src="..\assets\GanSu\GS- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
