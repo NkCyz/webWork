@@ -42,6 +42,16 @@
         </div>
         </el-scrollbar>
       
+      <img src="..\assets\HENAN\图片1.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片2.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片3.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片4.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片5.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片6.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片7.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片8.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片9.jpg" width="400" height="500" >
+      <img src="..\assets\HENAN\图片10.jpg" width="400" height="500" >
     </section>
   </el-scrollbar>
 
