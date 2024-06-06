@@ -1,40 +1,23 @@
-# webWork
+# Tourist Map
 
-This template should help get you started developing with Vue 3 in Vite.
+本项目是基于Vue和Vite开发的项目，旨在提供一份全国旅游攻略初级指南
 
-## Recommended IDE Setup
+## 项目运行要求
+本地环境包含git、nodejs
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 项目演示
 
-## Customize configuration
+See [我们的项目内容介绍](https://vitejs.dev/config/).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 首次运行之前请运行以下命令
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 每次运行只需要打开项目对应路径下cmd，运行以下命令
 
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint中文 with [ESLint中文](https://eslint.org/)
-
-```sh
-npm run lint
-我的内容尝试尝试
-```
-
-##我的内容
-
-cyz:new2
