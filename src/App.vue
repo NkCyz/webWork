@@ -1,14 +1,19 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" :ellipsis="false"
-    bg-color="transparent">
+  <el-menu
+    :default-active="activeIndex"
+    class="el-menu-demo"
+    mode="horizontal"
+    :ellipsis="false"
+    bg-color="transparent"
+  >
     <el-menu-item index="0">
       <img style="width: 50px" src=".\assets\header_icon.png" alt="Map logo" />
     </el-menu-item>
-    <el-menu-item index="1" style="font-size: 20px"> 旅游地图 </el-menu-item>
+    <el-menu-item index="1" style="font-size: 20px"> 即刻出发 </el-menu-item>
     <el-sub-menu index="4" style="margin-left: auto">
       <template #title>热门省市</template>
       <el-menu-item index="4-3">
@@ -89,7 +94,7 @@ import { RouterLink, RouterView } from 'vue-router';
         );
       "
     >
-      <el-scrollbar height="717px" tag="div">
+      <el-scrollbar height="800px" tag="div">
         <RouterLink to="/" class="scrollbar-demo-item">首页</RouterLink>
         <RouterLink to="/beijing" class="scrollbar-demo-item">北京</RouterLink>
         <RouterLink to="/tianjin" class="scrollbar-demo-item">天津</RouterLink>
@@ -139,8 +144,6 @@ import { RouterLink, RouterView } from 'vue-router';
         "
       />
     </div>
-    <div id="map"></div>
-    <div class="province-info" id="provinceInfo"></div>
   </main>
 </template>
 
@@ -150,9 +153,10 @@ header {
 }
 
 .wrapper {
-  height: 717px;
+  height: 800px;
 }
 .all {
+  height: 800px;
   display: grid;
   grid-template-columns: 1fr 10fr;
   padding: 0;
@@ -221,26 +225,5 @@ nav a:first-of-type {
 
 .el-menu {
   background-color: #f7f7f7;
-}
-</style>
-
-<style>
-#map {
-  height: 700px;
-  width: 100%;
-  margin: 0 auto;
-  border: none;
-  /* 去掉地图容器边框 */
-  box-shadow: none;
-  /* 去掉地图容器阴影 */
-}
-
-.province-info {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 </style>

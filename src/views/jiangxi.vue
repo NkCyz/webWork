@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到江西</h1>
         <p>豫章故郡，九州同一，浔阳江头，枫叶荻花，窑火不息，茶瓷交织，庐陵晓月，临川才子。</p>
@@ -66,7 +66,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

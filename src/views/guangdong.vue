@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到广东</h1>
         <p>珠江明珠，粤海风情。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>广东美食，鲜美诱人，百菜百味。广东烧腊、港式点心、茶餐厅、潮汕牛肉火锅，每一道都是精湛技艺和新鲜食材的结合，让你在每一口中品尝到地道的粤式风味。探索广东，享受一场舌尖上的美食盛宴。</p>
+        <p>
+          广东美食，鲜美诱人，百菜百味。广东烧腊、港式点心、茶餐厅、潮汕牛肉火锅，每一道都是精湛技艺和新鲜食材的结合，让你在每一口中品尝到地道的粤式风味。探索广东，享受一场舌尖上的美食盛宴。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\GuangDong\GD- (1).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (2).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (3).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (4).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (5).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (6).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (7).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (8).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (9).jpg" width="400" height="500">
-            <img src="..\assets\GuangDong\GD- (10).jpg" width="400" height="500">
+            <img src="..\assets\GuangDong\GD- (1).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (2).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (3).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (4).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (5).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (6).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (7).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (8).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (9).jpg" width="400" height="500" />
+            <img src="..\assets\GuangDong\GD- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

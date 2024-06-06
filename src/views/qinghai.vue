@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到青海</h1>
         <p>高原明珠，碧水蓝天。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>青海美食，天高海阔，鲜美无边。青海牛肉面、酥油茶、青稞酒、青海湖鲜鱼，每一道都是对青海高原风情的独特诠释，让你在舌尖上感受到独特的草原情怀。来青海，品味一场高原美食之旅。</p>
+        <p>
+          青海美食，天高海阔，鲜美无边。青海牛肉面、酥油茶、青稞酒、青海湖鲜鱼，每一道都是对青海高原风情的独特诠释，让你在舌尖上感受到独特的草原情怀。来青海，品味一场高原美食之旅。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\QingHai\QH- (1).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (2).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (3).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (4).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (5).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (6).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (7).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (8).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (9).jpg" width="400" height="500">
-            <img src="..\assets\QingHai\QH- (10).jpg" width="400" height="500">
+            <img src="..\assets\QingHai\QH- (1).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (2).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (3).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (4).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (5).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (6).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (7).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (8).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (9).jpg" width="400" height="500" />
+            <img src="..\assets\QingHai\QH- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

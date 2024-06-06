@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <div class="trans">
         <section class="intro">
           <h1>欢迎来到上海</h1>
@@ -65,7 +65,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

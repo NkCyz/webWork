@@ -2,49 +2,50 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
-    <section class="intro">
-      <h1>欢迎来到山东</h1>
-      <p>齐风鲁韵，岱青海蓝，礼仪之邦，好客山东。</p>
-    </section>
-    <section class="culture">
-      <h2>文化</h2>
-      <p>一句诗一座城，诗词里的齐鲁大地，遇见极致的山东。
-        山是眉，水是眼。出发吧，你不来又怎会发现，山水之间竟可眉目传情；
-        你不来又怎会发现，人文、山水与自然之间竟能
-        如此和谐；
-        你不来又怎会发现，红色基因竟自在这片神奇的
-        土地上赓续传承。</p>
-    </section>
-    <section class="attractions">
-      <h2>景点</h2>
-      <ul>
-        <li>泰山</li>
-        <li>烟台</li>
-        <li>青岛</li>
-        <li>威海</li>
-      </ul>
-    </section>
-    <section class="food">
-      <h2>美食</h2>
-      <p>鲁菜在中国饮食文化史中的重要地位的确是其他菜系所不可逾越与替代的，凡是中式菜肴烹饪的手法，总或多或少有些鲁菜的底色在其中，是中华美食文化的根基。</p>
-      <el-scrollbar >
-        <div class="flex_bar">
-          <img src="..\assets\SHANDONG\SD- (1).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (2).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (3).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (4).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (5).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (6).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (7).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (8).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (9).jpg" width="400" height="500" >
-      <img src="..\assets\SHANDONG\SD- (10).jpg" width="400" height="500" >
-        </div>
+    <el-scrollbar height="800" tag="div">
+      <section class="intro">
+        <h1>欢迎来到山东</h1>
+        <p>齐风鲁韵，岱青海蓝，礼仪之邦，好客山东。</p>
+      </section>
+      <section class="culture">
+        <h2>文化</h2>
+        <p>
+          一句诗一座城，诗词里的齐鲁大地，遇见极致的山东。
+          山是眉，水是眼。出发吧，你不来又怎会发现，山水之间竟可眉目传情；
+          你不来又怎会发现，人文、山水与自然之间竟能 如此和谐；
+          你不来又怎会发现，红色基因竟自在这片神奇的 土地上赓续传承。
+        </p>
+      </section>
+      <section class="attractions">
+        <h2>景点</h2>
+        <ul>
+          <li>泰山</li>
+          <li>烟台</li>
+          <li>青岛</li>
+          <li>威海</li>
+        </ul>
+      </section>
+      <section class="food">
+        <h2>美食</h2>
+        <p>
+          鲁菜在中国饮食文化史中的重要地位的确是其他菜系所不可逾越与替代的，凡是中式菜肴烹饪的手法，总或多或少有些鲁菜的底色在其中，是中华美食文化的根基。
+        </p>
+        <el-scrollbar>
+          <div class="flex_bar">
+            <img src="..\assets\SHANDONG\SD- (1).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (2).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (3).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (4).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (5).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (6).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (7).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (8).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (9).jpg" width="400" height="500" />
+            <img src="..\assets\SHANDONG\SD- (10).jpg" width="400" height="500" />
+          </div>
         </el-scrollbar>
-      
-    </section>
-  </el-scrollbar>
+      </section>
+    </el-scrollbar>
   </main>
 </template>
 
@@ -59,11 +60,11 @@ body {
 
 main {
   width: 1050px;
-  margin-left:75px;
+  margin-left: 75px;
   margin-right: 75px;
   padding-left: 40px;
-  padding-right:40px;
-  margin-top: 50px;
+  padding-right: 40px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -114,7 +115,7 @@ ul li {
 section {
   margin-bottom: 30px;
 }
-.flex_bar{
-  display:flex;
+.flex_bar {
+  display: flex;
 }
 </style>

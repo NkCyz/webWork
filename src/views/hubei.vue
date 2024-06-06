@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到湖北</h1>
         <p>楚韵荆风，江汉情长。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>品味湖北，舌尖上的荆楚——热干面、豆皮、武昌鱼、荆州鱼糕，让每一口都充满浓郁的地方风味，感受从江汉平原到大别山的美食传奇。</p>
+        <p>
+          品味湖北，舌尖上的荆楚——热干面、豆皮、武昌鱼、荆州鱼糕，让每一口都充满浓郁的地方风味，感受从江汉平原到大别山的美食传奇。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\HuBei\HB- (1).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (2).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (3).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (4).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (5).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (6).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (7).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (8).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (9).jpg" width="400" height="500">
-            <img src="..\assets\HuBei\HB- (10).jpg" width="400" height="500">
+            <img src="..\assets\HuBei\HB- (1).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (2).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (3).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (4).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (5).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (6).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (7).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (8).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (9).jpg" width="400" height="500" />
+            <img src="..\assets\HuBei\HB- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

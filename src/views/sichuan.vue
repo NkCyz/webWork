@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到四川</h1>
         <p>天府之国，美食之都。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>四川美食，麻辣鲜香，口福无穷。火锅、麻辣香锅、回锅肉、水煮鱼，每一道都是对四川独特风味的完美诠释，让你在舌尖上尽情享受麻辣鲜香的滋味。来四川，品味一场麻辣风情的美食盛宴。</p>
+        <p>
+          四川美食，麻辣鲜香，口福无穷。火锅、麻辣香锅、回锅肉、水煮鱼，每一道都是对四川独特风味的完美诠释，让你在舌尖上尽情享受麻辣鲜香的滋味。来四川，品味一场麻辣风情的美食盛宴。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\SiChuan\SC- (1).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (2).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (3).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (4).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (5).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (6).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (7).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (8).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (9).jpg" width="400" height="500">
-            <img src="..\assets\SiChuan\SC- (10).jpg" width="400" height="500">
+            <img src="..\assets\SiChuan\SC- (1).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (2).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (3).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (4).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (5).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (6).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (7).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (8).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (9).jpg" width="400" height="500" />
+            <img src="..\assets\SiChuan\SC- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

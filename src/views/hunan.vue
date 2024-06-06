@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到湖南</h1>
         <p>潇湘烟雨，湘水情深。</p>
@@ -24,24 +24,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>舌尖上的湘味，火辣的湘情。剁椒鱼头的鲜香、毛氏红烧肉的酥嫩、臭豆腐的独特风味，让你一尝倾心。地道的湖南美食带你体验浓郁的风味和火辣的激情，每一口都是对湘味的深情告白。</p>
+        <p>
+          舌尖上的湘味，火辣的湘情。剁椒鱼头的鲜香、毛氏红烧肉的酥嫩、臭豆腐的独特风味，让你一尝倾心。地道的湖南美食带你体验浓郁的风味和火辣的激情，每一口都是对湘味的深情告白。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\HuNan\HN- (1).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (2).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (3).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (4).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (5).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (6).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (7).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (8).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (9).jpg" width="400" height="500">
-            <img src="..\assets\HuNan\HN- (10).jpg" width="400" height="500">
+            <img src="..\assets\HuNan\HN- (1).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (2).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (3).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (4).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (5).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (6).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (7).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (8).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (9).jpg" width="400" height="500" />
+            <img src="..\assets\HuNan\HN- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -60,7 +61,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

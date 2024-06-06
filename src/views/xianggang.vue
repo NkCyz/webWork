@@ -2,49 +2,49 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
-    <section class="intro">
-      <h1>欢迎来到香港</h1>
-      <p>香港🇭🇰是天堂，也是人间</p>
-    </section>
-    <section class="culture">
-      <h2>文化</h2>
-      <p>时光流转，紫荆明艳；
-        白云过山峰，明珠焕新彩；
-        洗尘霾穿越风云，看香江再写华章；
-        甘六载香江奔涌，共前行紫荆花艳；
-        祖国富强统一，生逢其时，吾辈庆幸；
-        香港好，国家好；国家好，香港更好</p>
-    </section>
-    <section class="attractions">
-      <h2>景点</h2>
-      <ul>
-        <li>维多利亚港</li>
-        <li>旺角</li>
-        <li>铜锣湾</li>
-        <li>尖沙咀</li>
-      </ul>
-    </section>
-    <section class="food">
-      <h2>美食</h2>
-      <p>在这里，来自世界各地的烹饪文化得以融汇，塑造了别具一格的港式风味。在众多美食中，龙虾因其昂贵与独特味感，于90年代开始，受港式粤菜文化影响下，逐渐成为人们心中的美食珍品。</p>
-      <el-scrollbar >
-        <div class="flex_bar">
-          <img src="..\assets\XIANGGANG\XG- (1).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (2).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (3).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (4).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (5).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (6).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (7).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (8).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (9).jpg" width="400" height="500" >
-      <img src="..\assets\XIANGGANG\XG- (10).jpg" width="400" height="500" >
-        </div>
+    <el-scrollbar height="800" tag="div">
+      <section class="intro">
+        <h1>欢迎来到香港</h1>
+        <p>香港🇭🇰是天堂，也是人间</p>
+      </section>
+      <section class="culture">
+        <h2>文化</h2>
+        <p>
+          时光流转，紫荆明艳； 白云过山峰，明珠焕新彩； 洗尘霾穿越风云，看香江再写华章；
+          甘六载香江奔涌，共前行紫荆花艳； 祖国富强统一，生逢其时，吾辈庆幸；
+          香港好，国家好；国家好，香港更好
+        </p>
+      </section>
+      <section class="attractions">
+        <h2>景点</h2>
+        <ul>
+          <li>维多利亚港</li>
+          <li>旺角</li>
+          <li>铜锣湾</li>
+          <li>尖沙咀</li>
+        </ul>
+      </section>
+      <section class="food">
+        <h2>美食</h2>
+        <p>
+          在这里，来自世界各地的烹饪文化得以融汇，塑造了别具一格的港式风味。在众多美食中，龙虾因其昂贵与独特味感，于90年代开始，受港式粤菜文化影响下，逐渐成为人们心中的美食珍品。
+        </p>
+        <el-scrollbar>
+          <div class="flex_bar">
+            <img src="..\assets\XIANGGANG\XG- (1).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (2).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (3).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (4).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (5).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (6).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (7).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (8).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (9).jpg" width="400" height="500" />
+            <img src="..\assets\XIANGGANG\XG- (10).jpg" width="400" height="500" />
+          </div>
         </el-scrollbar>
-      
-    </section>
-  </el-scrollbar>
+      </section>
+    </el-scrollbar>
   </main>
 </template>
 
@@ -59,11 +59,11 @@ body {
 
 main {
   width: 1050px;
-  margin-left:75px;
+  margin-left: 75px;
   margin-right: 75px;
   padding-left: 40px;
-  padding-right:40px;
-  margin-top: 50px;
+  padding-right: 40px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -115,7 +115,7 @@ section {
   margin-bottom: 30px;
 }
 
-.flex_bar{
-  display:flex;
+.flex_bar {
+  display: flex;
 }
 </style>

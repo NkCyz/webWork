@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <el-scrollbar height="717px" tag="div">
+    <el-scrollbar height="800" tag="div">
       <section class="intro">
         <h1>欢迎来到澳门</h1>
         <p>濠江韵味，东西交汇。</p>
@@ -26,24 +26,25 @@
       </section>
       <section class="food">
         <h2>美食</h2>
-        <p>澳门美食，舌尖上的世界旅行。葡式蛋挞的香甜、猪扒包的酥脆、杏仁饼的醇厚，还有独特的澳门葡国菜，让你在每一口中感受东西方美食文化的完美融合。品味澳门，让味蕾体验一场与众不同的环球美食之旅。</p>
+        <p>
+          澳门美食，舌尖上的世界旅行。葡式蛋挞的香甜、猪扒包的酥脆、杏仁饼的醇厚，还有独特的澳门葡国菜，让你在每一口中感受东西方美食文化的完美融合。品味澳门，让味蕾体验一场与众不同的环球美食之旅。
+        </p>
         <el-scrollbar>
           <div class="flex_bar">
-            <img src="..\assets\AoMen\AM- (1).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (2).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (3).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (4).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (5).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (6).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (7).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (8).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (9).jpg" width="400" height="500">
-            <img src="..\assets\AoMen\AM- (10).jpg" width="400" height="500">
+            <img src="..\assets\AoMen\AM- (1).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (2).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (3).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (4).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (5).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (6).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (7).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (8).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (9).jpg" width="400" height="500" />
+            <img src="..\assets\AoMen\AM- (10).jpg" width="400" height="500" />
           </div>
         </el-scrollbar>
       </section>
     </el-scrollbar>
-
   </main>
 </template>
 
@@ -62,7 +63,7 @@ main {
   margin-right: 75px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
