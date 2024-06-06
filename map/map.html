@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>中国地图</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+    <style>
+        #mapContainer {
+            position: relative;
+            width: 100%;
+        }
+
+        #map {
+            width: 70%;
+            height: 600px;
+            float: left;
+        }
+
+        .sidebar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30%;
+            height: 100%;
+            background: #f9f9f9;
+            /* 添加其他样式来美化侧边栏 */
+        }
+
+        .province-info {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="province-info" id="provinceInfo"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

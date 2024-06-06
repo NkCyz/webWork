@@ -34,7 +34,3 @@ npm run build
 npm run lint
 我的内容尝试尝试
 ```
-
-##我的内容
-
-cyz:new2
